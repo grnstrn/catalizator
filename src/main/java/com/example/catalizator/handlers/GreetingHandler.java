@@ -35,6 +35,7 @@ public class GreetingHandler {
         return ServerResponse
                 .ok()
                 .contentType(MediaType.APPLICATION_JSON)
+
                 .body(data, Message.class);
     }
 
